@@ -1,0 +1,140 @@
+body{
+    /* background-color: wheat; */
+    margin : 0px;
+    
+}
+
+
+
+.lamp-post{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    width : 100%;
+}
+
+.lamp{
+    display : flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: aquamarine; */
+    height : 50vh;
+    margin : 0;
+    padding : 0;
+    
+}
+
+#circle{
+    height : 20px;
+    width : 150px;
+    background-color: wheat;
+    border-radius : 50%;
+    margin-top: -11px;
+}
+
+#trapezoid{
+    width : 100px;
+    border-bottom: 90px solid #555;
+    border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+}
+
+#line{
+    height : 50px;
+    width : 20px;
+    background-color: gray;
+    border-top: 3px dotted #555;
+}
+
+#slider-line{
+    border-radius : 30px;
+    border : 1px solid #333;
+    position: absolute;
+    left : 30%;
+    margin-top : 100px;
+    height : 5px;
+    width : 40%;
+    background-color: rgb(21, 99, 99);
+    align-self: flex-end;
+    
+}
+
+#slider{
+    border-radius: 50%;
+    position: absolute;
+    left : 30%;
+    margin-top : 95px;
+    height : 15px;
+    width : 15px;
+    background-color: rgb(152, 181, 186);
+    align-self: flex-end;
+    
+}
+
+.slide{
+    border-radius : 30px;
+    border : 1px solid #333;
+    position: absolute;
+    left : 30%;
+    margin-top : 100px;
+    height : 5px;
+    width : 40%;
+    background-color: rgb(27, 87, 87);
+    color :rgb(21, 99, 99);
+    align-self: flex-end;
+}
+
+.light-spread{
+    margin-top: 36px;
+    width: 25%;
+    filter: opacity(40%);
+
+    /* background-color: thistle; */
+    border-bottom: 45vh inset wheat;
+    border-left: 320px solid transparent;
+    border-right: 320px solid transparent;
+
+}
+
+.button{
+    position : absolute;
+    margin-top: 20px;
+    left : 47%;
+    border-radius: 10px;
+}
+
+.button-hover{
+    position : absolute;
+    margin-top: 20px;
+    left : 47%;
+    border-radius: 10px;
+    filter: opacity(60%);
+}
+
+@media (max-width : 680px){
+    .light-spread{
+        margin-top: 36px;
+        width: 25%;
+        filter: opacity(40%);
+        /* background-color: thistle; */
+        border-bottom: 45vh inset wheat;
+        border-left: 185px solid transparent;
+        border-right: 185px solid transparent;
+    
+    }
+}
+
+@media (max-width : 430px){
+    .light-spread{
+        margin-top: 36px;
+        width: 25%;
+        filter: opacity(40%);
+        /* background-color: thistle; */
+        border-bottom: 40vh inset wheat;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+    
+    }
+}
+    
